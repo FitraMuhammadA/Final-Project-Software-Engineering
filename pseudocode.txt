@@ -1,0 +1,24 @@
+Shopping Cart
+
+READ and WRITE "cart" with ARRAY
+READ and WRITE "i" with number
+READ and WRITE "total" with number
+READ and WRITE "jumlah_barang" with number
+
+==menambahkan barang==
+STORE "cart" with dataUser
+
+==menghitung jumlah barang==
+STORE "jumlah_barang" with "cart".length
+PRINT "jumlah_barang"
+
+==menghitung jumlah harga==
+STORE "i" with 0
+For "i" to "cart".length adding "i" by 1
+	STORE "total" with adding "total" and "cart"["i"]
+endfor
+
+print "total"
+
+
+
